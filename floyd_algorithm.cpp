@@ -1,7 +1,7 @@
 #include <iostream>
-#include <vector>
 #include <random>
 #include <fstream>
+#include <tuple>
 #include <mpi.h>
 
 std::pair<int, int *> get_data(int argc, char **argv);
